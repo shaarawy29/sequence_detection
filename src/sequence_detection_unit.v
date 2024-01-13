@@ -84,14 +84,17 @@ module sequence_detection_unit(nrst, clk, data, flag);
             end
             s1: begin
                 if(data == byte2) next_state = s2;
+                else if(data == byte1) next_state = s1;
                 else next_state = ideal;
             end
             s2: begin
                 if(data == byte3) next_state = s3;
+                else if(data == byte1) next_state = s1;
                 else next_state = ideal;
             end
             s3: begin
                 if(data == byte4) next_state = s4;
+                else if(data == byte1) next_state = s1;
                 else next_state = ideal;
             end
             s4: begin

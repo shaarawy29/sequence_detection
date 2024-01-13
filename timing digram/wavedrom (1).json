@@ -1,0 +1,8 @@
+{signal: [
+  {name: 'clk', wave: 'p.....................'},
+  {name: 'nrst', wave: 'l..h.............l....'},
+  {name: 'data', wave: 'x2.2777722277772222222', data: ['FF', 'D0', 'byte1', 'byte2', 'byte3', 'byte4','CD', 'Byte1', 'byte2', 'byte1', 'byte2', 'byte3', 'byte4', 'byte1', 'AA','byte1','byte2','4C', 'FF', 'CD']},
+  {name: 'next_state', wave: 'x3..444434444444343...', data: ['ideal', 's1', 's2', 's3', 's4', 'ideal', 's1', 's2', 's1', 's2', 's3', 's4' ,'s1', 'ideal', 's1', 'ideal']},
+  {name: 'current_state', wave: '3....4444344444443....', data: ['ideal', 's1', 's2', 's3', 's4', 'ideal', 's1', 's2', 's1', 's2', 's3', 's4' ,'s1', 'ideal']},
+  {name: 'flag', wave: '0.......10.....10.....'}
+]}
